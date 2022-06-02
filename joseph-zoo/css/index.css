@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+  	background-color: #B7D6F9;
+  	text-align: center;
+}
+
+
+.animal-links {
+	width: 25%;
+	margin: auto;
+}
+
+.animal-links ul {
+	margin: 0 4px;
+	padding: 0 4px;
+}
+
+.animal-links li {
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	padding-right: 8px;
+}
+
+.animal-links li:last-child {
+	padding-right: 0;
+}
+
+.animal-links a {
+	
+
+	text-decoration: none;
+}
+
