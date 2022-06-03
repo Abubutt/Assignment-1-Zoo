@@ -1,32 +1,5 @@
 
 
-[class*=card-product] a.title {
-  color: #212529;
-  display: block;
-}
-[class*=card-product] a.title:hover {
-  color: #3167eb;
-}
-[class*=card-product] .badge {
-  top: 10px;
-  left: 10px;
-  position: absolute;
-}
-[class*=card-product] p {
-  margin-bottom: 0;
-}
-[class*=card-product] .img-wrap {
-  overflow: hidden;
-  position: relative;
-}
-[class*=card-product] .img-wrap img {
-  height: 100%;
-  max-width: 100%;
-  width: auto;
-  display: inline-block;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 
 .card-product-grid {
   margin-bottom: 20px;
@@ -74,123 +47,33 @@
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
 }
-.card-product-grid:hover .btn-overlay {
-  opacity: 1;
-}
-.card-product-grid:hover {
-  box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
-  transition: 0.3s;
-}
 
-.item-slide .card-product-grid {
+
+
+[class*=card-product] a.title {
+  color: #212529;
+  display: block;
+}
+[class*=card-product] a.title:hover {
+  color: #3167eb;
+}
+[class*=card-product] .badge {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+[class*=card-product] p {
   margin-bottom: 0;
 }
-
-/* LARGE LIST STYLE PRODUCT ITEM */
-.card-product-list {
-  margin-bottom: 20px;
+[class*=card-product] .img-wrap {
+  overflow: hidden;
+  position: relative;
 }
-.card-product-list .img-wrap {
-  height: 220px;
-  border-radius: 0.37rem 0 0 0.37rem;
-}
-.card-product-list .info-main {
-  padding: 1.5rem 1rem;
-}
-.card-product-list .info-aside {
-  padding: 1.5rem 1rem;
-  border-left: 1px solid #e4e4e4;
+[class*=card-product] .img-wrap img {
   height: 100%;
-}
-
-.card-sm .img-wrap {
-  height: 160px;
-}
-
-.card-lg .img-wrap {
-  height: 280px;
-}
-
-.card-banner {
-  display: flex;
-  position: relative;
-  overflow: hidden;
-  background-color: #fff;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 0.37rem;
-}
-.card-banner .card-body {
-  background-size: cover;
-  position: relative;
-  z-index: 10;
-}
-.card-banner .caption {
-  background-color: rgba(0, 0, 0, 0.65);
-  z-index: 10;
-  padding: 1.25rem;
-  color: #fff;
-}
-.card-banner .caption.bottom {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  width: 100%;
-}
-.card-banner .caption.top {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 100%;
-}
-.card-banner .caption.left {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  position: absolute;
-}
-.card-banner .text-bottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-  width: 100%;
-  padding: 7px 20px;
-  padding-top: 30px;
-  border-radius: 0 0 0.37rem 0.37rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
-  color: #fff;
-}
-.card-banner .img-bg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  mix-blend-mode: multiply;
   max-width: 100%;
+  width: auto;
+  display: inline-block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-
-.card .img-wrap {
-  overflow: hidden;
-}
-
-
-.item-logo {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.item-logo img {
-  max-height: 65px;
-}
-
-.icon-control {
-  margin-top: 5px;
-  float: right;
-  font-size: 80%;
-}
-
-.card-header .title {
-  margin-bottom: 0;
-  line-height: 1.5;
-}
-
