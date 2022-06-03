@@ -7,6 +7,7 @@
 .card-product-grid .img-wrap {
   border-radius: 0.2rem 0.2rem 0 0;
   height: 220px;
+  width: auto;
 }
 .card-product-grid .info-wrap {
   overflow: hidden;
@@ -50,26 +51,26 @@
 
 
 
-[class*=card-product] a.title {
+a.title {
   color: #212529;
   display: block;
 }
-[class*=card-product] a.title:hover {
+a.title:hover {
   color: #3167eb;
 }
-[class*=card-product] .badge {
+.badge {
   top: 10px;
   left: 10px;
   position: absolute;
 }
-[class*=card-product] p {
+p {
   margin-bottom: 0;
 }
-[class*=card-product] .img-wrap {
+.img-wrap {
   overflow: hidden;
   position: relative;
 }
-[class*=card-product] .img-wrap img {
+.img-wrap img {
   height: 100%;
   max-width: 100%;
   width: auto;
