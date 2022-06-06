@@ -2,10 +2,10 @@
 
 Group Members:
 
-Abu Butt - Abubutt
+  Abu Butt - Abubutt
 
-Anas Idrissou - azedede
+  Anas Idrissou - azedede
 
-Sky Brooks - asteroidfive
+  Sky Brooks - asteroidfive
 
-Jospeh Planer - jplaner
+  Jospeh Planer - jplaner
