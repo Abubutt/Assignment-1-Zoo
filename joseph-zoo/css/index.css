@@ -29,8 +29,11 @@ body {
 }
 
 .animal-links a {
-	
-
 	text-decoration: none;
 }
 
+#home-button {
+	position: absolute;
+	bottom: 100px;
+	margin: auto;
+}
